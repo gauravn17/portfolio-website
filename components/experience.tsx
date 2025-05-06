@@ -16,81 +16,76 @@ interface ExperienceItem {
 export default function Experience() {
   const experiences: ExperienceItem[] = [
     {
+      title: "Software Engineer Intern",
+      company: "Qualcomm Institute, UC San Diego",
+      location: "San Diego, CA",
+      period: "Apr 2024 – Present",
+      description: [
+        "Developing scalable scientific computing pipelines and web applications for research teams.",
+        "Collaborating with faculty and researchers to integrate simulation tools into production environments.",
+        "Improving system performance and automating data workflows to support interdisciplinary research.",
+      ],
+      image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/UC_San_Diego_logo.svg/512px-UC_San_Diego_logo.svg.png",
+    },
+    {
+      title: "Undergraduate ML Researcher",
+      company: "Scripps Institute of Oceanography",
+      location: "San Diego, CA",
+      period: "Apr 2024 – Present",
+      description: [
+        "Applying machine learning to study aerosol-cloud interactions and climate variability.",
+        "Training neural networks to model satellite-observed environmental patterns using PyTorch and TensorFlow.",
+        "Working under Professor Duncan Watson-Parris in the Climate Analytics Lab.",
+      ],
+      image: "https://scripps.ucsd.edu/sites/default/files/styles/ucsd_banner/public/2023-01/scripps_logo.png",
+    },
+    {
+      title: "Data Analysis and ML Intern",
+      company: "Mswipe Technologies",
+      location: "Mumbai, India",
+      period: "Jun 2023 – Aug 2023",
+      description: [
+        "Performed customer segmentation using K-Means and optimized operational KPIs through time-series forecasting.",
+        "Built interactive dashboards in Excel and Python to analyze rental models and merchant behavior.",
+        "Enabled business teams to make data-driven decisions using predictive insights.",
+      ],
+      image: "https://mswipe.com/assets/images/logo.png",
+    },
+    {
+      title: "Senior Quantitative Analyst",
+      company: "Hedge Fund Club @ UCSD",
+      location: "San Diego, CA",
+      period: "Mar 2023 – Present",
+      description: [
+        "Designed systematic trading strategies using Python and backtested them on equities and ETFs.",
+        "Collaborated with analysts on alpha research, portfolio allocation, and risk-adjusted performance.",
+        "Led educational sessions on financial modeling, derivatives, and backtesting tools like QuantConnect.",
+      ],
+      image: "https://upload.wikimedia.org/wikipedia/commons/6/64/UC_San_Diego_logo.svg",
+    },
+    {
+      title: "Product Management Intern",
+      company: "Netcore Cloud",
+      location: "Remote, India",
+      period: "Jul 2023 – Sep 2023",
+      description: [
+        "Managed roadmap planning and user story writing for AI-based customer retention tools.",
+        "Worked with designers and engineers to ship feature enhancements and fix user friction points.",
+        "Conducted market analysis and competitor benchmarking for go-to-market strategies.",
+      ],
+      image: "https://netcorecloud.com/wp-content/uploads/2022/06/netcore-full-logo.svg",
+    },
+    {
       title: "Bioinformatics Research Assistant",
       company: "Cyphert Lab, UC San Diego",
       location: "San Diego, CA",
       period: "Sep 2024 – Present",
       description: [
-        "Implementing bioinformatics pipelines for metagenomics research for sequence analysis and data integration.",
-        "Using R to create detailed visualizations, facilitating insights into microbial community diversity and composition.",
-        "Conducting data preprocessing, quality control, and optimization to improve efficiency and data reliability.",
-        "Collaborating with lab members to refine experimental protocols and data workflows for studies.",
+        "Building bioinformatics pipelines to analyze metagenomic data from microbiome experiments.",
+        "Creating R visualizations to understand microbial community structures and functions.",
+        "Contributing to protocol optimization and reproducible scientific computing environments.",
       ],
-      image:
-        "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Bioinformatics%20Research%20Assistant%20Cyphert%20Lab.jpg-lXYHXna3efcTuoubct9YAe00wUtp1K.jpeg",
-    },
-    {
-      title: "Product Manager & Software Developer",
-      company: "Triton Software Engineering",
-      location: "San Diego, CA",
-      period: "Nov 2022 – Present",
-      description: [
-        "Progressed to Product Manager in Sep 2024, leading a team of 8 developers in Agile workflows, focusing on enhancing productivity and project timelines.",
-        "Facilitating client meetings to align product features with market needs and project specifications.",
-        "Implementing strategic process improvements to reduce delays and ensure on-time project delivery.",
-        "Developed iOS and web applications using SwiftUI, React, and Redux to streamline data management.",
-        "Designed and built scalable client/server applications with ExpressJS and MongoDB.",
-      ],
-      image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/TSE-7ymyNYMsedE1JeVnp2ypkOgdKr04nO.png",
-    },
-    {
-      title: "Professional Development Chair",
-      company: "CSE Society, UCSD",
-      location: "San Diego, CA",
-      period: "Jan 2023 – Jan 2024",
-      description: [
-        "Increased student participation by 35% through organizing recruitment fairs and technical workshops.",
-        "Coordinated events with Google and OpenAI, providing students with industry exposure.",
-        "Enhanced event reach and engagement by improving marketing strategies and optimizing workshop formats.",
-      ],
-      image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/CSE%20Society-Wo2IT6izid07BaHv9FXoYV7WppLRqZ.png",
-    },
-    {
-      title: "AI Team Intern",
-      company: "Kearney",
-      location: "Abu Dhabi, UAE",
-      period: "Aug 2024 – Sep 2024",
-      description: [
-        "Developed linear regression models and conducted market basket analysis to predict sales trends, improving inventory management.",
-        "Conducted market benchmarking to inform competitive strategies for clients.",
-        "Collaborated with cross-functional teams to deliver AI-driven solutions aligned with client goals.",
-        "Optimized ML workflows, enhancing model accuracy and deployment efficiency.",
-      ],
-      image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Kearney.jpg-S1X9tiCES2eG9LqIpJ7QXwHiEpmBkk.jpeg",
-    },
-    {
-      title: "Undergraduate Researcher",
-      company: "Edwin Solares Bioinformatics and AI Lab, UC San Diego",
-      location: "San Diego, CA",
-      period: "Nov 2023 – December 2024",
-      description: [
-        "Conducted genomic data analysis, building vector databases for LLM training.",
-        "Optimized data processing for machine learning tasks, enhancing performance and cost efficiency.",
-        "Analyzed genomic data using Meryl and Merqury for k-mer generation and quality checks.",
-      ],
-      image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/EDWIN-n3cGNqCevs0dgfbCMR8ux6XYYMHFKP.png",
-    },
-    {
-      title: "Cloud Computing Intern",
-      company: "Noventiq",
-      location: "New Delhi, India",
-      period: "June 2023 – Aug 2023",
-      description: [
-        "Optimized Microsoft Azure cloud infrastructure according to clients' needs, reducing costs by 10-27%.",
-        "Solved client issues by identifying inefficiencies and eliminating resource waste, achieving 15-20% savings.",
-        "Assisted in automating cloud resource management, improving operational efficiency.",
-      ],
-      image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/noventiq-43guLwjWzzl2Wf6An9q1MkEpmyaH7n.png",
+      image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Bioinformatics%20Research%20Assistant%20Cyphert%20Lab.jpg-lXYHXna3efcTuoubct9YAe00wUtp1K.jpeg",
     },
   ]
 
@@ -113,8 +108,7 @@ export default function Experience() {
           <h2 className="text-3xl sm:text-4xl font-bold text-navy mb-4 font-heading">Professional Journey</h2>
 
           <p className="text-gray-600 max-w-2xl mx-auto">
-            My professional journey spans research, product management, and software development across various
-            organizations.
+            From climate AI to fintech data science, my journey blends research, software engineering, and product thinking.
           </p>
         </motion.div>
 
@@ -179,4 +173,3 @@ export default function Experience() {
     </section>
   )
 }
-
