@@ -40,18 +40,15 @@ export default function About() {
               </div>
 
               <p className="text-gray-700 leading-relaxed mb-4">
-              I am a third-year Mathematics-Computer Science major at the University of California, San Diego, with a strong passion for leveraging technology to address real-world challenges. I am currently seeking internships and research opportunities in the field of Computer Science to further develop my skills and contribute to impactful projects.
+                I’m Gaurav Nair, a third-year Mathematics–Computer Science major at UC San Diego with a strong interest in AI, data, and building real-world systems that scale. My work spans across AI engineering, data analytics, and full-stack web development.
               </p>
 
               <p className="text-gray-700 leading-relaxed mb-4">
-                My diverse background spans from leading development teams to conducting cutting-edge research in
-                genomics and AI. I thrive in collaborative environments where I can apply my technical skills and
-                product vision to create innovative solutions to complex problems.
+                I’ve interned at a fast-growing fintech company, led web development for nationwide events, and built machine learning projects like Bitcoin price forecasting, roommate-matching algorithms, and AI-powered chatbots using LangChain and Flask. I enjoy working at the intersection of engineering and product to bring ideas to life.
               </p>
 
               <p className="text-gray-700 leading-relaxed">
-                Whether I'm optimizing cloud infrastructure, developing mobile applications, or analyzing genomic data,
-                I bring a detail-oriented and creative approach to every project I undertake.
+                Outside of tech, I’m a fan of hiking, soccer, long walks by the beach, and reading. I’m currently looking for internship opportunities where I can apply my skills, learn from mentors, and contribute to impactful teams.
               </p>
             </div>
           </motion.div>
@@ -60,4 +57,3 @@ export default function About() {
     </section>
   )
 }
-
