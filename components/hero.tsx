@@ -19,7 +19,7 @@ export default function Hero() {
             transition={{ duration: 0.8 }}
           >
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-white mb-4 font-heading">
-              Hi, I&apos;m <span className="text-lightblue">Sidhant Rohatgi</span>
+              Hi, I&apos;m <span className="text-lightblue">Gaurav Nair</span>
             </h1>
 
             <h2 className="text-2xl sm:text-3xl lg:text-4xl font-semibold text-gray-300 mb-6 font-heading">
@@ -61,8 +61,8 @@ export default function Hero() {
           >
             <div className="relative w-64 h-64 sm:w-80 sm:h-80 rounded-full overflow-hidden border-4 border-white shadow-2xl mx-auto">
               <Image
-                src="/images/goa3.JPG"
-                alt="Sidhant Rohatgi"
+                src="/images/download.jpeg"
+                alt="Gaurav Nair"
                 fill
                 className="object-cover"
                 priority
@@ -75,23 +75,23 @@ export default function Hero() {
                 <p>
                   <span className="font-semibold">LinkedIn:</span>{" "}
                   <a
-                    href="https://www.linkedin.com/in/sidhantrohatgi/"
+                    href="https://www.linkedin.com/in/gaurav-nair-148b40208/"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="hover:text-lightblue transition-colors"
                   >
-                    linkedin.com/in/sidhantrohatgi
+                    linkedin.com/in/gauravnair
                   </a>
                 </p>
                 <p>
                   <span className="font-semibold">GitHub:</span>{" "}
                   <a
-                    href="https://github.com/sidhantrohatgi"
+                    href="https://github.com/gauravn17"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="hover:text-lightblue transition-colors"
                   >
-                    github.com/sidhantrohatgi
+                    github.com/gauravn17
                   </a>
                 </p>
                 <p>
@@ -99,8 +99,8 @@ export default function Hero() {
                 </p>
                 <p>
                   <span className="font-semibold">Email:</span>{" "}
-                  <a href="mailto:srohatgi@ucsd.edu" className="hover:text-lightblue transition-colors">
-                    srohatgi@ucsd.edu
+                  <a href="mailto:gnair@ucsd.edu" className="hover:text-lightblue transition-colors">
+                    gnair@ucsd.edu
                   </a>
                 </p>
               </div>
