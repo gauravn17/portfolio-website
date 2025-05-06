@@ -5,7 +5,6 @@ import { ArrowRight, Github } from "lucide-react"
 
 interface Project {
   title: string
-  organization: string
   description: string[]
   link?: string
   github?: string
@@ -14,46 +13,40 @@ interface Project {
 export default function Projects() {
   const projects: Project[] = [
     {
-      title: "California Council for Interior Design Certification (CCIDC) Web App",
-      organization: "Triton Software Engineering",
+      title: "VibeMatch – ML Roommate Matcher",
       description: [
-        "Collaborated with a team of 8 developers to create a web application for the nonprofit CCIDC using React, TypeScript, and Redux.",
-        "Integrated MongoDB for backend storage, improving data handling efficiency by 25%.",
-        "The app streamlined the application process for interior designers seeking certification in California, resulting in a 30% reduction in processing time for new applications.",
+        "Built a machine-learning-based roommate matching app using personality traits and KNN clustering.",
+        "Implemented user signup, profile upload, and preference inputs using React, Tailwind, and Flask.",
+        "Designed to match roommates based on vibe compatibility, similar to Tinder but for co-living.",
       ],
-      link: "#",
-      github: "#",
+      github: "https://github.com/gauravn17/vibematch",
     },
     {
-      title: "Spay.LA Project",
-      organization: "Product Manager",
+      title: "AI-Powered Workflow Chatbot",
       description: [
-        "Leading a cross-functional team to build a user-friendly platform connecting pet owners with accessible, affordable spay/neuter services in the Los Angeles area.",
-        "By streamlining scheduling, clinic information, and educational resources, the project aims to reduce shelter overpopulation and improve animal welfare in the community.",
+        "Developed a conversational assistant that builds automation workflows in minutes.",
+        "Used LangChain with OpenAI APIs and integrated a RESTful backend via Flask.",
+        "Enabled intelligent step-by-step interactions to auto-generate Python scripts and workflows.",
       ],
-      link: "#",
-      github: "#",
+      github: "https://github.com/gauravn17/ai-workflow-chatbot",
     },
     {
-      title: "Alum Mentorship iOS Application",
-      organization: "Triton Software Engineering",
+      title: "Medical Billing Assistant",
       description: [
-        "Led the frontend development of an iOS app for connecting high school students seeking mentorship with alumni.",
-        "Built app using SwiftUI with MVVM architecture, and integrated Firebase for real-time data management.",
-        "Spearheaded API development using ExpressJS to create seamless data flows.",
+        "Built a medical billing assistant that simplifies complex billing codes using LLMs.",
+        "Integrated Streamlit for an interactive frontend and OpenAI GPT for smart text processing.",
+        "Allows users to input symptoms and receive billing code suggestions with explanations.",
       ],
-      link: "#",
-      github: "#",
+      github: "https://github.com/gauravn17/medical-billing-assistant",
     },
     {
-      title: "Sentiment Analysis of Amazon Reviews",
-      organization: "Data Science Project",
+      title: "Bitcoin Price Forecasting",
       description: [
-        "Led a data science project analyzing 30,000 Amazon magazine subscription reviews using machine learning models.",
-        "Successfully implemented logistic regression combined with TF-IDF and Word2Vec features to enhance sentiment classification, achieving an accuracy of 85.83%.",
+        "Developed a forecasting model using Facebook Prophet to predict future Bitcoin prices.",
+        "Preprocessed time-series data with technical indicators using Pandas TA and yfinance.",
+        "Visualized trends and seasonality to understand market behavior for crypto investments.",
       ],
-      link: "#",
-      github: "#",
+      github: "https://github.com/gauravn17/bitcoin-price-forecasting",
     },
   ]
 
@@ -76,7 +69,7 @@ export default function Projects() {
           <h2 className="text-3xl sm:text-4xl font-bold text-navy mb-4 font-heading">Featured Projects</h2>
 
           <p className="text-gray-600 max-w-2xl mx-auto">
-            A selection of my recent projects showcasing my technical skills and problem-solving abilities.
+            A selection of my work combining data, AI, and software engineering to solve real-world problems.
           </p>
         </motion.div>
 
@@ -91,8 +84,7 @@ export default function Projects() {
               className="bg-white rounded-xl shadow-lg overflow-hidden group card-hover"
             >
               <div className="p-6">
-                <h3 className="text-xl font-bold text-navy mb-2 font-heading">{project.title}</h3>
-                <p className="text-navy/70 font-medium mb-4">{project.organization}</p>
+                <h3 className="text-xl font-bold text-navy mb-4 font-heading">{project.title}</h3>
 
                 <ul className="space-y-2 mb-4">
                   {project.description.map((item, i) => (
