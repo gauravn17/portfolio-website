@@ -84,24 +84,6 @@ export default function Coursework() {
       department: "CSE",
     },
     {
-      code: "CSE 120",
-      title: "Principles of Computer Operating Systems",
-      description:
-        "Basic concepts and principles of operating systems. Process management, memory management, file systems, resource allocation, scheduling, and security.",
-      prerequisites: "CSE 101 or CSE 110",
-      link: "https://catalog.ucsd.edu/courses/CSE.html#cse120",
-      department: "CSE",
-    },
-    {
-      code: "CSE 150B",
-      title: "Introduction to Artificial Intelligence: Search and Reasoning",
-      description:
-        "Fundamental concepts and algorithms in artificial intelligence. Search, constraint satisfaction, game playing, logical and probabilistic reasoning, planning, and decision making.",
-      prerequisites: "CSE 100 or MATH 176",
-      link: "https://catalog.ucsd.edu/courses/CSE.html#cse150b",
-      department: "CSE",
-    },
-    {
       code: "CSE 151A",
       title: "Introduction to Machine Learning",
       description:
@@ -203,30 +185,21 @@ export default function Coursework() {
       department: "MATH",
     },
     {
-      code: "MATH 154",
-      title: "Discrete Mathematics and Graph Theory",
+      code: "MATH 184",
+      title: "Enumerative Combinatorics",
       description:
-        "Basic concepts in discrete mathematics with emphasis on graph theory. Graphs, trees, connectivity, Euler and Hamiltonian paths, matchings, and network flows.",
-      prerequisites: "MATH 20C, MATH 18",
-      link: "https://catalog.ucsd.edu/courses/MATH.html#math154",
+        "Introduction to the theory and applications of combinatorics. Enumeration of combinatorial structures (permutations, integer partitions, set partitions). Bijections, inclusion-exclusion, ordinary and exponential generating functions.",
+      prerequisites: "MATH 109",
+      link: "https://catalog.ucsd.edu/courses/MATH.html#math184",
       department: "MATH",
     },
     {
-      code: "MATH 171A",
-      title: "Introduction to Numerical Mathematics: Linear Algebra",
+      code: "MATH 170A",
+      title: "Introduction to Numerical Analysis: Linear Algebra",
       description:
-        "Floating point arithmetic, direct and iterative solution of linear equations, iterative solution of nonlinear equations, optimization, approximation theory.",
-      prerequisites: "MATH 20D, MATH 18",
-      link: "https://catalog.ucsd.edu/courses/MATH.html#math171a",
-      department: "MATH",
-    },
-    {
-      code: "MATH 171B",
-      title: "Introduction to Numerical Mathematics: Approximation and Nonlinear Equations",
-      description:
-        "Numerical approximation of functions, numerical integration and differentiation, and numerical solution of nonlinear equations and differential equations.",
-      prerequisites: "MATH 171A",
-      link: "https://catalog.ucsd.edu/courses/MATH.html#math171b",
+        "Analysis of numerical methods for linear algebraic systems and least squares problems. Topics include orthogonalization methods. Ill conditioned problems. Eigenvalue and singular value computations.",
+      prerequisites: "MATH 18, MATH 20C, MATH 109",
+      link: "https://catalog.ucsd.edu/courses/MATH.html#math170a",
       department: "MATH",
     },
     {
@@ -236,15 +209,6 @@ export default function Coursework() {
         "Introduction to probability. Discrete and continuous random variables–binomial, Poisson and Gaussian distributions. Central limit theorem. Data analysis and inferential statistics: graphical techniques, confidence intervals, hypothesis tests, curve fitting.",
       prerequisites: "MATH 20C or MATH 31BH",
       link: "https://catalog.ucsd.edu/courses/MATH.html#math183",
-      department: "MATH",
-    },
-    {
-      code: "MATH 187",
-      title: "Introduction to Cryptography",
-      description:
-        "Introduction to cryptography, including classical cryptosystems, block ciphers, public-key cryptosystems, digital signatures, and hash functions.",
-      prerequisites: "MATH 103A or CSE 21 or MATH 154 or MATH 184A",
-      link: "https://catalog.ucsd.edu/courses/MATH.html#math187",
       department: "MATH",
     },
   ]
