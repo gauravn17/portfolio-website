@@ -9,7 +9,7 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-8">
           <div>
             <h3 className="text-2xl font-bold mb-4 font-heading flex items-center">
-              Sidhant Rohatgi
+              Gaurav Nair
               <span className="cat-icon ml-2 w-5 h-5 opacity-70"></span>
             </h3>
             <p className="text-gray-300 mb-4 max-w-md">
