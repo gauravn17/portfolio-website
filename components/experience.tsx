@@ -66,7 +66,7 @@ export default function Experience() {
     {
       title: "Product Management Intern",
       company: "Netcore Cloud",
-      location: "Remote, India",
+      location: "Mumbai, India",
       period: "Jul 2023 – Sep 2023",
       description: [
         "Managed roadmap planning and user story writing for AI-based customer retention tools.",
@@ -74,18 +74,6 @@ export default function Experience() {
         "Conducted market analysis and competitor benchmarking for go-to-market strategies.",
       ],
       image: "https://netcorecloud.com/wp-content/uploads/2022/06/netcore-full-logo.svg",
-    },
-    {
-      title: "Bioinformatics Research Assistant",
-      company: "Cyphert Lab, UC San Diego",
-      location: "San Diego, CA",
-      period: "Sep 2024 – Present",
-      description: [
-        "Building bioinformatics pipelines to analyze metagenomic data from microbiome experiments.",
-        "Creating R visualizations to understand microbial community structures and functions.",
-        "Contributing to protocol optimization and reproducible scientific computing environments.",
-      ],
-      image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Bioinformatics%20Research%20Assistant%20Cyphert%20Lab.jpg-lXYHXna3efcTuoubct9YAe00wUtp1K.jpeg",
     },
   ]
 
