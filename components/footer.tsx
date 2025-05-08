@@ -21,7 +21,7 @@ export default function Footer() {
             </div>
             <div className="flex space-x-4">
               <a
-                href="https://linkedin.com/in/sidhantrohatgi"
+                href="https://www.linkedin.com/in/gaurav-nair-148b40208/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-10 h-10 rounded-full bg-navy-light flex items-center justify-center text-gray-300 hover:text-white hover:bg-white/20 transition-all duration-300"
@@ -30,14 +30,14 @@ export default function Footer() {
                 <Linkedin size={20} />
               </a>
               <a
-                href="https://github.com/sidhantrohatgi"
+                href="https://github.com/gauravn17"
                 className="w-10 h-10 rounded-full bg-navy-light flex items-center justify-center text-gray-300 hover:text-white hover:bg-white/20 transition-all duration-300"
                 aria-label="GitHub"
               >
                 <Github size={20} />
               </a>
               <a
-                href="mailto:srohatgi@ucsd.edu"
+                href="mailto:gnair@ucsd.edu"
                 className="w-10 h-10 rounded-full bg-navy-light flex items-center justify-center text-gray-300 hover:text-white hover:bg-white/20 transition-all duration-300"
                 aria-label="Email"
               >
@@ -84,7 +84,7 @@ export default function Footer() {
         </div>
 
         <div className="border-t border-navy-light pt-8 relative">
-          <p className="text-center text-gray-400">&copy; {currentYear} Sidhant Rohatgi. All rights reserved.</p>
+          <p className="text-center text-gray-400">&copy; {currentYear} Gaurav Nair. All rights reserved.</p>
 
           {/* Cute cat in the corner */}
           <div className="absolute bottom-0 right-0 opacity-30 transform -translate-y-2">
