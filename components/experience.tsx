@@ -19,7 +19,7 @@ export default function Experience() {
       title: "Software Engineer Intern",
       company: "Qualcomm Institute, UC San Diego",
       location: "San Diego, CA",
-      period: "Apr 2024 – Present",
+      period: "September 2024 – Present",
       description: [
         "Developing scalable scientific computing pipelines and web applications for research teams.",
         "Collaborating with faculty and researchers to integrate simulation tools into production environments.",
@@ -31,7 +31,7 @@ export default function Experience() {
       title: "Undergraduate ML Researcher",
       company: "Scripps Institute of Oceanography",
       location: "San Diego, CA",
-      period: "Apr 2024 – Present",
+      period: "September 2024 – Present",
       description: [
         "Applying machine learning to study aerosol-cloud interactions and climate variability.",
         "Training neural networks to model satellite-observed environmental patterns using PyTorch and TensorFlow.",
@@ -43,7 +43,7 @@ export default function Experience() {
       title: "Data Analysis and ML Intern",
       company: "Mswipe Technologies",
       location: "Mumbai, India",
-      period: "Jun 2023 – Aug 2023",
+      period: "Jun 2024 – September 2024",
       description: [
         "Performed customer segmentation using K-Means and optimized operational KPIs through time-series forecasting.",
         "Built interactive dashboards in Excel and Python to analyze rental models and merchant behavior.",
@@ -55,7 +55,7 @@ export default function Experience() {
       title: "Senior Quantitative Analyst",
       company: "Hedge Fund Club @ UCSD",
       location: "San Diego, CA",
-      period: "Mar 2023 – Present",
+      period: "April 2024 – Dec 2024",
       description: [
         "Designed systematic trading strategies using Python and backtested them on equities and ETFs.",
         "Collaborated with analysts on alpha research, portfolio allocation, and risk-adjusted performance.",
