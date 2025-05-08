@@ -45,7 +45,7 @@ export default function Education() {
               <p className="text-gray-700 font-medium text-lg mb-2">
                 Bachelor of Science in Mathematics-Computer Science
               </p>
-              <p className="text-gray-600 italic mb-4">September 2022 – December 2025</p>
+              <p className="text-gray-600 italic mb-4">September 2022 – March 2026</p>
             </div>
 
             {/* San Diego themed decoration */}
