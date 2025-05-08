@@ -39,7 +39,7 @@ export default function Navbar() {
             href="#home"
             className="text-xl font-bold text-white hover:text-gray-200 transition-colors flex items-center"
           >
-            <span className="font-heading">Sidhant Rohatgi</span>
+            <span className="font-heading">Gaurav Nair</span>
             <span className="cat-icon ml-2 w-5 h-5 opacity-70"></span>
           </Link>
 
