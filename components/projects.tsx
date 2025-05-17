@@ -22,13 +22,11 @@ export default function Projects() {
     github: "https://github.com/gauravn17/vibematch",
   },
   {
-    title: "AI-Powered Workflow Chatbot",
+    title: "ProfoundAIt",
     description: [
-      "Developed a conversational assistant that builds automation workflows in minutes.",
-      "Used LangChain with OpenAI APIs and integrated a RESTful backend via Flask.",
-      "Enabled intelligent step-by-step interactions to auto-generate Python scripts and workflows.",
+      "Developed an AI-powered companion for deep reflection, emotional insight, and creative expression.",
     ],
-    github: "https://github.com/gauravn17/ai-workflow-chatbot",
+    github: "https://github.com/gauravn17/ProfoundAI",
   },
   {
     title: "Medical Billing Assistant",
