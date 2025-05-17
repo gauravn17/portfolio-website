@@ -9,7 +9,7 @@ import Footer from "@/components/footer"
 import type { Metadata } from "next"
 
 export const metadata: Metadata = {
-  title: "Sidhant Rohatgi | Portfolio",
+  title: "Gaurav Nair | Portfolio",
   description: "Researcher, Product Manager, and Developer",
 }
 
