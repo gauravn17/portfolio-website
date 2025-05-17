@@ -42,7 +42,7 @@ export default function Hero() {
                 Learn More
               </a>
               <a
-                href="/resume.pdf"
+                href="/GauravNairResume.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="px-6 py-3 bg-transparent text-white font-medium rounded-lg border border-white hover:bg-white/10 transition-all duration-300 flex items-center"
@@ -61,7 +61,7 @@ export default function Hero() {
           >
             <div className="relative w-64 h-64 sm:w-80 sm:h-80 rounded-full overflow-hidden border-4 border-white shadow-2xl mx-auto">
               <Image
-                src="/images/download.jpeg"
+                src="/public/1655652781943.jpeg"
                 alt="Gaurav Nair"
                 fill
                 className="object-cover"
