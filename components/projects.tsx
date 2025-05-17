@@ -13,7 +13,7 @@ interface Project {
 export default function Projects() {
   const projects: Project[] = [
     {
-      title: "VibeMatch – ML Roommate Matcher",
+      title: "VibeMatch",
       description: [
         "Building a machine-learning-based roommate matching app using personality traits and KNN clustering.",
         "Implementing user signup, profile upload, and preference inputs using React, Tailwind, and Flask.",
