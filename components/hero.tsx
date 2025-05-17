@@ -95,7 +95,7 @@ export default function Hero() {
                   </a>
                 </p>
                 <p>
-                  <span className="font-semibold">Phone:</span> +1 (619)-820-7207
+                  <span className="font-semibold">Phone:</span> +1 (858)-336-6106
                 </p>
                 <p>
                   <span className="font-semibold">Email:</span>{" "}
