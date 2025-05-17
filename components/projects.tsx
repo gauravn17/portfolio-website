@@ -22,7 +22,7 @@ export default function Projects() {
     github: "https://github.com/gauravn17/vibematch",
   },
   {
-    title: "ProfoundAIt",
+    title: "ProfoundAI",
     description: [
       "Developed an AI-powered companion for deep reflection, emotional insight, and creative expression.",
     ],
